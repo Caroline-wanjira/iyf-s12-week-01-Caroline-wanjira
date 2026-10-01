@@ -1,11 +1,20 @@
-<!-- Good:Semantic version -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"
+<meta name="viewport"content="width=device-width,initial-scale=1.0"
+<title>Good Sematic Conversation</title>
+</head>
+<body>
 <header>
-    <div class="logo">My Site</div>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact\</a>
-        <nav>
+<a href="index.html">My site</a>
+     <nav>
+       <ul>
+       <li><a href="#home">Home</a>
+       <li><a href="#about">About</a>
+        <li><a href="#contact">Contact\</a>
+       </Ul>
+        </nav>
         </header>
         <main>
             <article>
@@ -18,9 +27,13 @@
                 <ul>
                     <li>Post 1</li>
                     <li>Post 2</li
+             </ul>
         </aside>
         </main>
         <footer>
             <p>&copy; 2026 My Site</p
+        </footer>
+    </body>
+   </html>
 
     
