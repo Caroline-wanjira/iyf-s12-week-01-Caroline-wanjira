@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <Link rel="stylesheet"href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Me</h1>
+        <section>
+<form action="https://formspree.io/f/mzezvobn" method="POST">
+    <input type="text"name "first" placeholder="First name" autocomplete="off" required>
+    <input type="text" name "last" placeholder="Last name"autocomplete="off" required>
+    <input type="text" name "email" placeholder=" Email Address"autocomplete="off" required>
+    
+     <select name="service">
+    <option value="car rental">car rental</option>
+    <option value="car leasing">car leasing</option>
+    <option value="car track installation">car track installation</option>
+    </select>
+
+    <textarea rows="5"name "message"placeholder="enter text" required></textarea>
+    <label>
+    <input type="checkbox"name="newsletter"value="subscribed"checked>
+    </label>
+
+    <button type="submit">Send message</button>
+</form>
+</section>
+
+<section>
+    <h2>Reach me via </h2>
+    <ul>
+        <li><a href="https://github.com/Caroline-wanjira">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/caroline-wanjira">LinkedIn</a></li>
+     </ul>
+</section>
+<section>
+    <h2>Location</h2>
+    <p>Nairobi,Kenya</p>
+    <p>Timezone:EAT zone</p>
+</section>
+</body>
+</html>
