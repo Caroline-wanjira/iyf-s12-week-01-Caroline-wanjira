@@ -8,7 +8,7 @@ This repository contains my week 1 learning activities and assignments
 - **Date:** October , 2026
 
 ## Project Description
-I built a contact.html and my portfolio.
+I built a contact.html , my first website and my portfolio.
 
 ## Technologies Used
 - HTML
