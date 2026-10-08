@@ -3,25 +3,11 @@ This repository contains my week 1 learning activities and assignments
   # Week 1 : Web foundations
 
 ## Author
-- **Name:** Your Full Name
+- **Name:** Caroline Wanjira Wanjiru
 - **GitHub:** [@Caroline-wanjira](https://github.com/Caroline-wanjira)
 - **Date:** October , 2026
 
 ## Project Description
-I built a contact.html , my first website and my portfolio.
-
-## Technologies Used
-- HTML
-- CSS
-   
-## Features
-- Contact form with name, email and message fields
-- Semantic page structure 
-- styled my pages with css
-
-## How to Run
-1. Clone this repository
-2. Open `index.html` in your browser
 
 
 ## Lessons Learned
