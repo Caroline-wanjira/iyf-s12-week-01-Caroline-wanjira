@@ -8,17 +8,14 @@ This repository contains my week 1 learning activities and assignments
 - **Date:** October , 2026
 
 ## Project Description
-
+A responsive multi page personal portfolio website developed using HTML and CSS. The website has home, about, contact and projects with navigation.
 
 ## Lessons Learned
 - I learnt about semantic html
 - I learnt how to style my work using css
 
 ## Challenges Faced
-What problems did you encounter and how did you solve them?
+- Connecting multi pages and how to apply CSS properties.
 
-## Screenshots (optional)
-![Screenshot description](path/to/screenshot.png)
-
-## Live Demo (if deployed)
-[View Live Demo](https://your-deployed-url.com)
+## Live Demo 
+[My portfolio](https://caroline-wanjira.github.io/iyf-s12-week-01-Caroline-wanjira)
