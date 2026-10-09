@@ -17,11 +17,15 @@
         </nav>
         </header>
         <main>
+      <section>
             <article>
                 <h1>Welcome to My Site</h1>
                 <p>This is my first paragraph...</p>
                 <p>This is my second paragraph...</p>
             </article>
+         </section>
+
+<section>
             <aside>
                 <h2>Recent Posts</h2>
                 <ul>
@@ -29,7 +33,9 @@
                     <li>Post 2</li
              </ul>
         </aside>
+     </section>
         </main>
+
         <footer>
             <p>&copy; 2026 My Site</p
         </footer>
