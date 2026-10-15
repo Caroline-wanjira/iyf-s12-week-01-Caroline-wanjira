@@ -9,19 +9,27 @@
 <body>
 <form action="https://formspree.io/f/mzezvobn" method="POST">
 <h1>Contact Form</h1>
- <input type="text"name "first" placeholder="First name" autocomplete="off" required>
-    <input type="text" name "last" placeholder="Last name"autocomplete="off" required>
-    <input type="text" name "email" placeholder=" Email Address"autocomplete="off" required>
+    <fieldset>
+        <legend>Your Details</legend>
+ <input type="text"name"first" placeholder="First name" autocomplete="off" required>
+    <input type="text" name="last" placeholder="Last name"autocomplete="off" required>
+    <input type="text" name="email" placeholder=" Email Address"autocomplete="off" required>
+    </fieldset>
+    <fieldset>
+        <legend>Your Request</legend>
      <select name="service">
     <option value="car rental">car rental</option>
     <option value="car leasing">car leasing</option>
     <option value="car track installation">car track installation</option>
-    </select>
-    <textarea rows="5"name "message"placeholder="enter text" required></textarea>
+     </select>
+<textarea rows="5" name="message" placeholder="enter text" required></textarea>
+    </fieldset>
+    <fieldset>
     <label>
     <input type="checkbox"name="newsletter"value="subscribed"checked>
+        subscribe to our newsletter
     </label>
-
+    </fieldset>
     <button type="submit">Send message</button>
 </form>
 </body>
