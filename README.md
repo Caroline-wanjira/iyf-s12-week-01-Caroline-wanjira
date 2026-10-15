@@ -17,3 +17,6 @@ A responsive multi page personal portfolio website developed using HTML and CSS.
 
 ## Live Demo 
 [My portfolio](https://caroline-wanjira.github.io/iyf-s12-week-01-Caroline-wanjira)
+
+## My Articles
+- [why semantic HTML matters: What a lighthouse audit taught me](https://dev.to/carolinewanjira/why-sematic-html-matters-what-lighthouse-audit-taught-me-3kng)
