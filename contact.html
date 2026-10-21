@@ -1,61 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <Link rel="stylesheet"href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact me | Caroline wanjira</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html" class="active">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Contact Me</h1>
-        <section>
-<form action="https://formspree.io/f/mzezvobn" method="POST">
-    <fieldeset>
-    <legend>Your Details</legend>
-    <input type="text"name="first" placeholder="First name" autocomplete="off" required>
-    <input type="text" name="last" placeholder="Last name"autocomplete="off" required>
-    <input type="text" name="email" placeholder=" Email Address"autocomplete="off" required>
-    </fieldeset>
+  <header>
+    <h1>The Road Back To Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="project.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
 
-    <fieldset>
-        <legend>Your Request</legend>
-     <select name="service">
-    <option value="car rental">car rental</option>
-    <option value="car leasing">car leasing</option>
-    <option value="car track installation">car track installation</option>
-    </select>
-   <textarea rows="5" name="message"placeholder="enter text" required></textarea>
-    </fieldset>
-    <fieldset>
-    <label>
-    <input type="checkbox"name="newsletter"value="subscribed"checked>
-        Subscribe to newsletter
-    </label>
-    </fieldset>
-    <button type="submit">Send message</button>
-</form>
-</section>
+  <main>
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Interested in <em>The Road Back to me or any other books</em>?Whether you would like to order a copy , ask about bulk or bookstore orders</p>
+    </section>
 
-<section>
-    <h2>Reach me via </h2>
-    <ul>
-        <li><a href="https://github.com/Caroline-wanjira">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/caroline-wanjira">LinkedIn</a></li>
-     </ul>
-</section>
-<section>
-    <h2>Location</h2>
-    <p>Nairobi,Kenya</p>
-    <p>Timezone:EAT zone</p>
-</section>
+    <section>
+      <h2>Send a Message</h2>
+      <form id="contact-form">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+          <option>order a copy</option>
+          <option>Bulk or Bookstore orders</option>
+          <option>Signed copy request</option>
+          <option>Speaking or event invitation</option>
+        </select>
+
+
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Our Details</h2>
+      <address>
+        <p>Phone: <a href="tel:+25475850302">+254 75850302</a></p>
+        <p>Email: <a href="mailto:cwanjira240@gmail.com">cwanjira240@gmail.com</a></p>
+        <p>Address: Nairobi,Kenya</p>
+      </address>
+      <h3>Opening Hours</h3>
+      <ul>
+        <li>Mon to Fri: 8:00 am to 6:00 pm</li>
+        <li>Saturday: 9:00 am to 4:00 pm</li>
+        <li>Sunday: Closed</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Caroline Wanjira . All rights reserved.</p>
+  </footer>  
 </body>
 </html>
